@@ -1,0 +1,61 @@
+[gd_scene load_steps=2 format=3 uid="uid://borsnemtdr8is"]
+
+[ext_resource type="Texture2D" uid="uid://cspx8660fw80w" path="res://графика/спрайты/кнопка.png" id="1_ur1cf"]
+
+[node name="menu" type="Node2D"]
+
+[node name="play" type="TextureButton" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 394.0
+offset_top = 178.0
+offset_right = 757.0
+offset_bottom = 305.0
+grow_horizontal = 2
+grow_vertical = 0
+texture_normal = ExtResource("1_ur1cf")
+stretch_mode = 6
+
+[node name="Label play" type="Label" parent="play"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 130.0
+offset_top = 18.0
+offset_right = -131.0
+offset_bottom = -36.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 51
+text = "Play"
+
+[node name="quit" type="TextureButton" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 394.0
+offset_top = 309.0
+offset_right = 757.0
+offset_bottom = 436.0
+grow_horizontal = 2
+grow_vertical = 0
+texture_normal = ExtResource("1_ur1cf")
+stretch_mode = 6
+
+[node name="Label quit" type="Label" parent="quit"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 128.0
+offset_top = 18.0
+offset_right = -129.0
+offset_bottom = -36.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 51
+text = "Quit"
